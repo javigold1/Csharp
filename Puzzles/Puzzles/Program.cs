@@ -11,6 +11,7 @@ static void RandomArray()
     int Max = 0;
     int Sum = 0;
 
+
     // Place 10 random integer values between 5 - 25 into the array
     for (int i = 0; i < randArray.Length; i++)
     {
