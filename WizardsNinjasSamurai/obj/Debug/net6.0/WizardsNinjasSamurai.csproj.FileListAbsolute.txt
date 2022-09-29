@@ -1,0 +1,15 @@
+C:\Users\JaviGold\codedojo\CSharp\Csharp\WizardsNinjasSamurai\obj\Debug\net6.0\WizardsNinjasSamurai.csproj.AssemblyReference.cache
+C:\Users\JaviGold\codedojo\CSharp\Csharp\WizardsNinjasSamurai\obj\Debug\net6.0\WizardsNinjasSamurai.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JaviGold\codedojo\CSharp\Csharp\WizardsNinjasSamurai\obj\Debug\net6.0\WizardsNinjasSamurai.AssemblyInfoInputs.cache
+C:\Users\JaviGold\codedojo\CSharp\Csharp\WizardsNinjasSamurai\obj\Debug\net6.0\WizardsNinjasSamurai.AssemblyInfo.cs
+C:\Users\JaviGold\codedojo\CSharp\Csharp\WizardsNinjasSamurai\obj\Debug\net6.0\WizardsNinjasSamurai.csproj.CoreCompileInputs.cache
+C:\Users\JaviGold\codedojo\CSharp\Csharp\WizardsNinjasSamurai\bin\Debug\net6.0\WizardsNinjasSamurai.exe
+C:\Users\JaviGold\codedojo\CSharp\Csharp\WizardsNinjasSamurai\bin\Debug\net6.0\WizardsNinjasSamurai.deps.json
+C:\Users\JaviGold\codedojo\CSharp\Csharp\WizardsNinjasSamurai\bin\Debug\net6.0\WizardsNinjasSamurai.runtimeconfig.json
+C:\Users\JaviGold\codedojo\CSharp\Csharp\WizardsNinjasSamurai\bin\Debug\net6.0\WizardsNinjasSamurai.dll
+C:\Users\JaviGold\codedojo\CSharp\Csharp\WizardsNinjasSamurai\bin\Debug\net6.0\WizardsNinjasSamurai.pdb
+C:\Users\JaviGold\codedojo\CSharp\Csharp\WizardsNinjasSamurai\obj\Debug\net6.0\WizardsNinjasSamurai.dll
+C:\Users\JaviGold\codedojo\CSharp\Csharp\WizardsNinjasSamurai\obj\Debug\net6.0\refint\WizardsNinjasSamurai.dll
+C:\Users\JaviGold\codedojo\CSharp\Csharp\WizardsNinjasSamurai\obj\Debug\net6.0\WizardsNinjasSamurai.pdb
+C:\Users\JaviGold\codedojo\CSharp\Csharp\WizardsNinjasSamurai\obj\Debug\net6.0\WizardsNinjasSamurai.genruntimeconfig.cache
+C:\Users\JaviGold\codedojo\CSharp\Csharp\WizardsNinjasSamurai\obj\Debug\net6.0\ref\WizardsNinjasSamurai.dll
