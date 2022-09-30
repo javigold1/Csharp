@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="~/css/styles.css">
+    <title>Results</title>
+</head>
+
+<body>
+    <form action="results" method="post">
+        <div class="formline">
+            <label for="name">
+                Your name:
+            </label>
+            <input class="form-control-sm" type="text" id="name" name="name">
+        </div>
+        <div class="formline">
+            <label for="location">Dojo Location:</label>
+            <select name="location" id="location" class="form-control-sm">
+                <option value="San Jose">
+                    San Jose
+                </option>
+                <option value="LA">
+                    LA
+                </option>
+                <option value="Bellevue">
+                    Bellevue
+                </option>
+                <option value="Silicon Valley">
+                    Silicon Valley
+                </option>
+            </select>
+        </div>
+        <div class="formline">
+            <label for="language">Favorite Language:</label>
+            <select name="language" id="language" class="form-control-sm">
+                <option value="Python">
+                    Python
+                </option>
+                <option value="HTML">
+                    HTML
+                </option>
+                <option value="CSS">
+                    C#
+                </option>
+                <option value="JavaScript">
+                    JavaScript
+                </option>
+            </select>
+        </div>
+        <label for="comment">Comment (optional):</label>
+        <div>
+            <textarea name="comment" cols="45" rows="8"></textarea>
+        </div>
+        <button class="btn btn-outline-dark" type="submit">Submit</button>
+    </form>
+</body>
+
+</html>

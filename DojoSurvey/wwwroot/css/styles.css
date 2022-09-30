@@ -1,0 +1,28 @@
+form {
+  width: fit-content;
+  border: 2px solid black;
+  padding: 20px;
+  margin: 0 auto;
+  margin-top: 75px;
+}
+
+.formline {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0px;
+}
+
+h1 {
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.resultstext {
+  margin-left: 30px;
+  margin-top: 15px;
+}
+
+.resultbtn {
+  margin-left: 30px;
+  margin-top: 15px;
+}

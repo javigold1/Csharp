@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "y+2Hna18V8C283dqqIWBuSvxBAHsh7H4cGj0g7vAZ/k=",
+  "Hash": "KMDfYIbLqvqid7t2Ra1BZqzLiHFyD9TkPNMVuf2rqLw=",
   "Source": "PortfolioII",
   "BasePath": "_content/PortfolioII",
   "Mode": "Default",
@@ -32,6 +32,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\style.css"
+    },
+    {
+      "Identity": "C:\\Users\\JaviGold\\codedojo\\CSharp\\Csharp\\PortfolioII\\wwwroot\\img\\Screenshot.png",
+      "SourceId": "PortfolioII",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JaviGold\\codedojo\\CSharp\\Csharp\\PortfolioII\\wwwroot\\",
+      "BasePath": "_content/PortfolioII",
+      "RelativePath": "img/Screenshot.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Screenshot.png"
     }
   ]
 }
