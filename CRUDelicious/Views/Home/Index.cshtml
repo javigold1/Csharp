@@ -1,0 +1,33 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to CRUDelicious</h1>
+    <span>Home</span>|<a href="dishes/new">Add a Dish</a> | <a href="dishes/all">View All</a>
+</div>
+<hr />
+@* @foreach (Dish dish in Model)
+    {
+    <div class="card shadow rounded mx-auto w-75 mb-3">
+    <h4 class="card-title text-center bg-dark text-light py-2 rounded-top">
+    @dish.Name
+    </h4>
+
+    <div class="card-body">
+    <p class="card-text">@dish.Chef</p>
+    <p class="card-text">@dish.Tastiness</p>
+    <p class="card-text">@dish.Calories</p>
+    <p class="card-text">@dish.Description</p>
+    <small class="text-muted"> Submitted on: @dish.CreatedAt </small>
+    </div>
+    @* <a
+    asp-controller="Posts"
+    asp-action="GetOnePost"
+    asp-route-onePostId="@post.PostId"
+    class="btn btn-outline-info"
+    >
+    View Details
+    </a>
+    </div>
+    } *@

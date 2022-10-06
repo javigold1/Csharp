@@ -1,0 +1,16 @@
+@model List<Dish>
+
+
+<a href="/dishes/new">Create a Post</a>
+
+<h2 class="text-center">All Posts</h2>
+<hr />
+
+
+@foreach (Dish dish in Model)
+{
+    <div class="card-body">
+        <a href="/dishes/@dish.DishId">@dish.Name</a>
+        <p class="card-text"> by @dish.Chef</p>
+    </div>
+}
