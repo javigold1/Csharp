@@ -13,8 +13,28 @@ public class HomeController : Controller
         _logger = logger;
     }
 
+    private int? uid
+    {
+        get
+        {
+            return HttpContext.Session.GetInt32("UUID");
+        }
+    }
+
+    private bool loggedIn
+    {
+        get
+        {
+            return uid != null;
+        }
+    }
+
     public IActionResult Welcome()
     {
+        if (!loggedIn)
+        {
+            return RedirectToAction("Index", "Users");
+        }
         return View("Welcome");
     }
 
