@@ -1,0 +1,25 @@
+@model List<Chef>
+
+<h2 class="text-center">All Chefs</h2>
+<hr />
+
+<div class="card-body">
+    <table class="table">
+        <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Age</th>
+            <th scope="col"># of dishes</th>
+        </tr>
+
+        @foreach (Chef chef in Model)
+        {
+            int age = DateTime.Today.Year - chef.DOB.Year;
+            <tr>
+                <td class="card-text">@chef.FirstName @chef.LastName</td>
+                <td class="card-text"> @age</td>
+                <td class="card-text">@chef.ChefDishes.Count</td>
+            </tr>
+        }
+
+    </table>
+</div>

@@ -1,0 +1,22 @@
+@model List<Dish>
+
+<div class="card-body">
+    <table class="table">
+        <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Chef</th>
+            <th scope="col">Tastiness</th>
+            <th scope="col">Calories</th>
+        </tr>
+
+        @foreach (Dish dish in Model)
+        {
+            <tr>
+                <td class="card-text">@dish.Name</td>
+                <td class="card-text">@dish.Author.FirstName</td>
+                <td class="card-text">@dish.Tastiness</td>
+                <td class="card-text">@dish.Calories</td>
+            </tr>
+        }
+    </table>
+</div>

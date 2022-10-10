@@ -1,0 +1,43 @@
+@model Dish
+
+<div class="container w-75 mx-auto">
+    <h2 class="text-center">New Dish</h2>
+
+    <form class="shadow p-3 rounded" asp-controller="Dishes" asp-action="Create" method="POST">
+        <div class="mb-3">
+            <label asp-for="Name"></label>
+            <span asp-validation-for="Name" class="text-danger font-weight-bold">
+            </span>
+            <input class="form-control" asp-for="Name" />
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="ChefId"></label>
+            <span asp-validation-for="ChefId" class="text-danger font-weight-bold">
+            </span>
+            <select asp-for="ChefId">
+                @foreach (Chef item in ViewBag.AllChefs)
+                {
+                    <option value="@item.ChefId">@item.FirstName</option>
+                }
+            </select>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Tastiness"></label>
+            <span asp-validation-for="Tastiness" class="text-danger font-weight-bold">
+            </span>
+            <input class="form-control" asp-for="Tastiness" />
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Calories"></label>
+            <span asp-validation-for="Calories" class="text-danger font-weight-bold">
+            </span>
+            <input class="form-control" asp-for="Calories" />
+        </div>
+
+
+        <button class="btn btn-success">Submit</button>
+    </form>
+</div>
