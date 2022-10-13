@@ -1,0 +1,30 @@
+@model List<Category>
+
+<div class="container mx-75">
+    <h1 class="text-center"><a href="../products/all">Products</a> | Categories</h1>
+
+    <div class="row mt-5">
+        @{
+            Category newCategory = new Category();
+        }
+        <partial name="_New" model=@newCategory></partial>
+
+        <div class="col-md">
+            <div class="card-body">
+                <table class="table">
+                    <tr>
+                        <th scope="col">Name</th>
+                    </tr>
+
+                    @foreach (Category category in Model)
+                    {
+                        <tr>
+                            <td class="card-text"><a href="@category.CategoryId">@category.Name</a></td>
+                        </tr>
+                    }
+                </table>
+            </div>
+        </div>
+    </div>
+
+</div>

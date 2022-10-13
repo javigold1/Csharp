@@ -1,0 +1,30 @@
+@model List<Product>
+
+<div class="container mx-75">
+    <h1 class="text-center">Products | <a href="../categories/all">Categories</a></h1>
+
+    <div class="row mt-5">
+        @{
+            Product newProduct = new Product();
+        }
+        <partial name="_New" model=@newProduct></partial>
+
+        <div class="col-md">
+            <div class="card-body">
+                <table class="table">
+                    <tr>
+                        <th scope="col">Name</th>
+                    </tr>
+
+                    @foreach (Product product in Model)
+                    {
+                        <tr>
+                            <td class="card-text"><a href="@product.ProductId">@product.Name</a></td>
+                        </tr>
+                    }
+                </table>
+            </div>
+        </div>
+    </div>
+
+</div>
