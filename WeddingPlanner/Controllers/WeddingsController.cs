@@ -109,4 +109,20 @@ public class WeddingsController : Controller
 
     }
 
+    [HttpGet("/weddings/{weddingId}")]
+    public IActionResult Detail(int weddingId)
+    {
+        if (!loggedIn)
+        {
+            return RedirectToAction("Index", "Users");
+        }
+        Wedding? wedding = db.Weddings
+            .Include(r => r.RsvpAssociation)
+            .ThenInclude(assoc => assoc.user)
+            .FirstOrDefault(w => w.WeddingId == weddingId);
+
+        return View("detail", wedding);
+
+    }
+
 }

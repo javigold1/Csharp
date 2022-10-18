@@ -1,0 +1,24 @@
+@model Wedding
+
+<div class="container mx-75">
+    <div class="text-center">
+        <h2>@Model.WedderOne & @Model.WedderTwo</h2>
+        <div class="row mt-5">
+            <div class="col-md">
+                <table class="table">
+                    <tr>
+                        <th scope="col">RSVPs</th>
+                    </tr>
+
+                    @foreach (var r in Model.RsvpAssociation)
+                    {
+                        <tr>
+                            <td class="card-text">@r.user.FirstName @r.user.LastName</td>
+                        </tr>
+                    }
+                </table>
+            </div>
+        </div>
+    </div>
+
+</div>
