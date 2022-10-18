@@ -1,0 +1,13 @@
+﻿11 lines (10 sloc) 301 Bytes
+
+@{
+    ViewData["Title"] = "Random Passcode";
+}
+
+<div class="text-center">
+    <p class="lead">Random passcode (passcode #@ViewBag.Count)</p>
+    <div class="container">
+        <p class="lead">@ViewBag.Password</p>
+    </div>
+    <a asp-action="Generate" asp-controller="Home">Generate</a>
+</div>
